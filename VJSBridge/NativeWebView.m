@@ -45,7 +45,9 @@
 -(void)callJSMethod:(NSString*) method params:(NSDictionary*)params completeHandler:(void (^)(id  _Nullable value))completionHandler{
     NSString* js = [NSString stringWithFormat:@"%@(%@);",method,[Utils convertToJsonData:params]];
     
-    [jsCallbackHandlers setObject:completionHandler forKey:method];
+    if(completionHandler){
+        [jsCallbackHandlers setObject:completionHandler forKey:method];
+    }
     
     [self evaluateJavaScript:js completionHandler:nil];
 }
