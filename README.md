@@ -1,7 +1,7 @@
 # VJSBridge-iOS
 This project make a bridge between Objective-C and JavaScript in a Vue project.  It provides safe and convenient way to call objC code from Vue and call Vue method from objC.
 
-
+![bannar](https://github.com/JasonLeee2014/VJSBridge-iOS/blob/master/theory.jpg?raw=true)
 
 ### Features
 
