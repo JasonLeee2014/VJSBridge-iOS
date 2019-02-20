@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "VJSBridge"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "This project make a bridge between Objective-C and JavaScript."
 
   # This description is used to generate tags and improve search results.
